@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Miny Kitchen - Miniature Cooking Videos</title>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        /* Body styling */
+        body {
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #edb621;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        /* Logo styling */
+        .logo {
+            width: 75px;
+            height: 75px;
+            margin-right: 10px;
+        }
+
+        /* Hero section */
+        .hero {
+            background: url('images/banner.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            z-index: 1;
+        }
+
+        /* Intro section */
+        .intro {
+            padding: 20px;
+            text-align: center;
+            font-size: 15px;
+            color: #000000;
+        }
+
+        /* Video grid */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .video {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .video:hover {
+            transform: scale(1.05);
+        }
+
+        .video img {
+            width: 100%;
+            height: auto;
+        }
+
+        .video-title {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #edb621;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* Adjust for phones */
+        @media (max-width: 480px) {
+            iframe {
+                width: 350px;
+                height: 200px;
+            }
+        }
+
+        .contact {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar with Logo -->
+    <div class="navbar">
+        <img src="images/logo.png" alt="Tiny Miny Kitchen Logo" class="logo">
+        <strong style="color: black;">Tiny Miny Kitchen</strong>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Tiny Miny Kitchen</h1>
+    </section>
+
+    <!-- Intro Section -->
+    <div class="intro">
+        <p>Discover the art of miniature cooking with tiny equipment, big flavors, and delightful creations! Watch,
+            learn, and explore recipes made on a mini scale.</p>
+        <br>
+        <p>
+            Hello🙏🏻❤️<br>
+            This is Baishnabi Meher and Welcome to my channel "Tiny Miny Kitchen".
+            This Channel is all about miniature food, miniature kitchen and miniature Cooking.
+            Hope you like my channel and enjoy my miniature cooking videos.😍</p>
+    </div>
+
+    <!-- Video Grid Section -->
+    <section class="video-grid">
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/ielsr-6aVJ4?si=rb_s7WhHENBLH4eT"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/d17-vC9BvIA?si=vf57TiOHG8kBLrYF"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/UvZwHozC9m4?si=CjEdn4bklNa6SIOz"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/0v4cDGnqNzQ?si=KTMfT1c_rFxkHHD1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/nxoKdu0InBU?si=07eHeNN4UdZytgWT"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/XJEsGXBjpFs?si=SlzrBpo3g56q3G55"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/1weaGw85ViA?si=OyLqXam2gNsjYRxe"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/-kCwICkdOes?si=hQUr5CMBljtjN_QL"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/A6gcZZEuE2U?si=7XXxrX738rAnDOFM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- Add more videos here -->
+    </section>
+    <div class="contact">
+        Thanks for visit our site <br>
+        Please reach us in different social media site and support us.
+        <br>
+        <br>
+        <div class="g-ytsubscribe" data-channelid="Tinyminykitchen" data-layout="default" data-count="default"></div>
+        <a href="kitchentinyminy@gmail.com"><img height="25px" style="margin-right: 10px;" src="icons/gmail.png" alt=""
+                srcset=""></a>
+        <a href="https://www.instagram.com/kitchentinyminy"><img height="25px" style="margin-right: 10px;"
+                src="icons/instagram.png" alt="" srcset=""></a>
+        <a href="https://www.youtube.com/@Tinyminykitchen"><img height="25px" style="margin-right: 10px;"
+                src="icons/youtube.png" alt="" srcset=""></a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2024 Tiny Miny Kitchen | All Rights Reserved
+    </div>
+</body>
+
+</html>
